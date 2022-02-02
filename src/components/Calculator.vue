@@ -1,6 +1,12 @@
 <template>
-  <div>
-    <h1>Calculator</h1>
+  <div class="calculator">
+    <div>hello</div>
+    <div>hello</div>
+    <div>hello</div>
+    <div>hello</div>
+    <div>hello</div>
+    <div>hello</div>
+    <div>hello</div>
   </div>
 </template>
 
@@ -11,5 +17,11 @@ export default {
 </script>
 
 <style scoped>
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+}
 
 </style>
